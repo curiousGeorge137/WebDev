@@ -1,0 +1,124 @@
+
+	.post-header { margin-bottom: 30px; position: relative; }
+
+
+	h1 { color: #e68a00; font-family: 'Helvetica Neue', sans-serif; font-size: 46px; font-weight: 100; line-height: 50px; letter-spacing: 1px; padding: 0 0 40px; border-bottom: double #555; }
+	h2 {
+	    -webkit-column-span: all; /* Chrome, Safari, Opera */
+	    column-span: all;
+	}
+
+	p { color: #bbc3c8; font-family: 'Verdana',
+	 sans-serif; font-size: 16px; line-height: 26px; text-indent: 30px; margin: 0;
+  height: 200px;}
+
+
+	link { color: #c64119; border-bottom: 1px solid #c64119; text-decoration: none; }
+
+
+	link:hover { color: #993213; border-bottom: 1px solid #993213; }
+
+body {font-family: "Lato", sans-serif;}
+
+.container{
+	margin-top: 5%;
+width: 500px;
+margin-top: 0%;}
+
+.a{margin: 2%;}
+
+
+
+.nav {
+	margin-top: 0%;
+	width: 100%;
+}
+
+.logo{
+	height:30%;
+    width: 100%;
+    background:#DCDCDC ;
+    background-size: 100% 100%;
+}
+
+.h1{
+	display:inline;
+	font-family: "Trebuchet MS", Helvetica, sans-serif; font-size: 130%;
+	 line-height: 50px;
+}
+
+
+.newspaper {
+		font-family: "Trebuchet MS", Helvetica, sans-serif; font-size: 90%;
+    -webkit-column-count: 6; /* Chrome, Safari, Opera */
+    -moz-column-count: 6; /* Firefox */
+    column-count: 6;
+    -webkit-column-gap: 10px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 10px; /* Firefox */
+    column-gap: 10px;
+    -webkit-column-rule: 1px solid lightblue; /* Chrome, Safari, Opera */
+    -moz-column-rule: 1px solid lightblue; /* Firefox */
+    column-rule: 1px solid lightblue;
+}
+
+
+.date {
+	color: white;
+	background:#337ab7;
+	display: inline-block;
+	font-family: 'Georgia', serif;
+	font-style: italic; font-size: 18px;
+height: 40px;
+padding-top: 1%;
+padding-bottom: 1%;
+padding-right: 1%;
+	/*padding: 1% ;*/
+
+}
+
+#para{
+	color: #111; font-family: 'Helvetica Neue', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 0;
+}
+
+
+#texts{
+
+}
+#img1{
+	style="width:10%; height:5%;
+	margin-top:2%;margin-left:5%;
+	margin-bottom:4%
+}
+#map {
+		 width: 100%;
+		 height: 400px;
+		 background-color: grey;
+	 }
+
+
+input[type=text] {
+	height: 50%;
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    padding: 5px 8px 10px 20px;
+    -webkit-transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 80%;
+}
+footer{
+	color: black;
+	background-color: #DCDCDC;
+	margin-top: 25%;
+}

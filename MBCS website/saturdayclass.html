@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+	<link rel="stylesheet" type="text/css" href="css/homePage_style.css">
+  <link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="test.js">
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+
+
+<body>
+	<div class="logo">
+
+		<div id="image" style="display:inline; ">
+			<img id="img1" src="titlePic.png" alt="title" style="width:15%; height:10%;
+			margin-top:2%;margin-left:5%;
+			margin-bottom:4%">
+
+		</div>
+
+		<div class="h1">
+				MurraysBay Saturday School
+		</div>
+		<div style="display:inline; ">
+			<p id="demo" class="date"></p>
+		</div>
+	</div>
+
+
+	<div class="container">
+
+
+	  <ul class="nav nav-pills">
+	    <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
+	    <li><a data-toggle="pill" href="#yr3Sci">Year 3 Science</a></li>
+			<li><a data-toggle="pill" href="#yr11Science">Year 11 Science</a></li>
+			<li><a data-toggle="pill" href="#yr8Math">Year 8 Maths</a></li>
+			<li><a data-toggle="pill" href="#yr11Math">Year 11 Maths</a></li>
+			<li><a data-toggle="pill" href="#login">Login</a></li>
+			<li><a data-toggle="pill" href="#contact">Contact us</a></li>
+
+			<li><form>
+  			<input type="text" name="search" placeholder="Search..">
+			</form>
+		</li>
+	  </ul>
+
+	  <div class="tab-content">
+	    <div id="home" class="tab-pane fade in active">
+				<img src="background.jpg"style="width:100%;height:70%;">
+
+				<div class="newspaper">
+				<h2>Welcome to Murraysbay Saturday school</h2>
+				<h3>News at MBSS</h3>
+				See all articles<br><br><br><br><h4><a>Enrolment</a></h4>To enrol to our class please contact us on
+				phone or email. We offer a wide curriculum from science to martial arts to fine arts
+				<h4><a>Foundation</a></h4>
+				 We believe learning is an important foundation we also have fun in the classroom
+				 and try to  create a friendly active learning environment.
+				  <h4><a>News</a></h4>
+					<a href="http://www.livescience.com/">Live Science click here for up to date science news</a>
+					 <a href="http://scifun.chem.wisc.edu/homeexpts/homeexpts.html"> Home experiments</a> , tell us what experiments you want to do at class on the forum.
+
+					<h4><a>notifications</a></h4>
+				  Last week on 3rd December, school holidays coming up, hope you all have a good break and stay safe.
+					<h4><a>Event</a></h4>
+					keep your eyes on the event page as we may organise events during the holidays
+				</div>
+
+	      <p id="para"></p>
+
+	    </div>
+	    <div id="yr3Sci" class="tab-pane fade">
+				<img src="yr3sci.JPG"style="width:100%;height:50%;">
+				<h3>Year 3 science</h3>
+	      <p>welcome to Year 3 science.</p>
+	    </div>
+
+	    <div id="yr11Science" class="tab-pane fade">
+				<img src="yr11Science.jpg"style="width:100%;height:70%;">
+				<h3>Year 11 science</h3>
+	      <p id="para">Welcome to Murraysbay Saturday school.</p>
+
+	    </div>
+
+			<div id="yr8Math" class="tab-pane fade">
+				<img src="Maths.jpg"style="width:100%;height:70%;">
+				<h3>Year 8 Maths</h3>
+				<p id="para">Welcome to Murraysbay Saturday school.</p>
+			</div>
+
+			<div id="yr11Math" class="tab-pane fade">
+				<img src="Maths.jpg"style="width:100%;height:70%;">
+				<h3>Year 11 Maths</h3>
+				<p id="para">Welcome to Murraysbay Saturday school.</p>
+			</div>
+
+			<div id="login" class="tab-pane fade">
+
+				<div class="wrap">
+					<div class="avatar">
+			      <img src="astronaut.png" style="width:80%">
+					</div>
+					<input type="text" placeholder="username" required>
+					<div class="bar">
+						<i></i>
+					</div>
+					<input type="password" placeholder="password" required>
+					<a href="" class="forgot_link">forgot ?</a><br>
+					<a href="" class="forgot_link">register</a>
+					<button>Sign in</button>
+
+				</div>
+
+			    <script src="js/index.js"></script>
+			</div>
+
+			<div id="contact" class="tab-pane fade">
+				<h3>Location</h3>
+			<div id="map"></div>
+		</div>
+	  </div>
+
+</div>
+
+
+
+
+<footer>
+  <p></p>
+	<p style="display:inline;float:right; "> login Icon made by Freepik from www.flaticon.com </p>
+	<p style="display:inline;float:right; ">phone  022-6513358</p>
+  <p style="display:inline; float:right; ">email: <a href="mailto:georgechennz@gmail.com">
+  send us an email</a>.</p>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d.toDateString();
+
+function openCity(evt, cityName) {
+		var i, tabcontent, tablinks;
+		tabcontent = document.getElementsByClassName("tabcontent");
+		for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+		}
+		tablinks = document.getElementsByClassName("tablinks");
+		for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+		}
+		document.getElementById(cityName).style.display = "block";
+		evt.currentTarget.className += " active";
+}
+
+
+
+function initMap() {
+        var uluru = {lat: -36.735260, lng: 174.745660};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+</script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNLFjdA0EIoEkgCMOt7_JvdttdTb5wkVI&callback=initMap">
+    </script>
+</body>
+		</html>
